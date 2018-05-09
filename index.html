@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=1">
+    <meta name="apple-mobile-web-app-title" content="">
+     <link rel="apple-touch-icon-precomposed" href="timg.jpg">
+     <meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+    window.onload = window.onresize = function(){        
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        //找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+        //如果屏幕宽度大于640 
+        //就用 640/16=40
+        //小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        //最大网页尺寸640 
+        //最大字体（根字体大小） 40
+    }
+</script>
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/gonggong.css">
+<link rel="stylesheet" href="font/iconfont.css">
+
+</head>
+<body>
+        <header>
+        <a href="#"><span class="iconfont">&#xe624; <i>5</i></span>
+         
+        </a>  
+        <h5>@Ajessdsvf</h5>
+        </header>
+        <div class="main">
+            <p class="p1"><img src="images/img3.png" height="163" width="624" alt=""></p>
+            <div class="p2">
+                   <p class="pimg"> <img src="images/imgf4.png" height="420" width="534" alt=""></p>
+                    <ul>
+                        <li class="iconfont">&#xe60b;</li>
+                        <li class="iconfont">&#xe647;</li>
+                        <li class="iconfont">&#xe609;</li>
+                        <li class="iconfont">&#xe620;</li>
+                    </ul>
+            </div>
+            <p class="p3">
+                <img src="images/img5.png" height="279" width="624" alt="">
+            </p>
+        </div>
+<div class="main">
+            <p class="p1"><img src="images/img3.png" height="163" width="624" alt=""></p>
+            <div class="p2">
+                   <p class="pimg"> <img src="images/imgf4.png" height="420" width="534" alt=""></p>
+                    <ul>
+                        <li class="iconfont">&#xe60b;</li>
+                        <li class="iconfont">&#xe647;</li>
+                        <li class="iconfont">&#xe609;</li>
+                        <li class="iconfont">&#xe620;</li>
+                    </ul>
+            </div>
+            <p class="p3">
+                <img src="images/img5.png" height="279" width="624" alt="">
+            </p>
+        </div>
+
+          <div class="footer">
+        <a href="#" class="iconfont">&#xe620;</a>
+        <a href="#" class="iconfont">&#xe609;</a>
+        <a href="#" class="iconfont">&#xe647;</a>
+        <a href="#" class="iconfont">&#xe60a;</a>
+        <a href="#" class="iconfont">&#xe605;</a>
+        <a href="#" class="iconfont">&#xe60b;</a>
+    </div>
+    <div class="tb">
+        <img src="images/img6.png" alt="">
+    </div>
+</body>
+</html>

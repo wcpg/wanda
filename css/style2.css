@@ -1,0 +1,148 @@
+@charset "utf-8"; 
+body{
+
+    height: 100%;
+    background-color: #D9D2CA;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: 2.55rem;
+    background-color: #EC8F6D;
+    line-height: 2.55rem;
+    position: fixed;
+      left:0;top:0;
+      z-index: 3;
+border-bottom: 5px solid #cccccc
+}
+header span{
+
+    margin-right: 4.775rem;
+    margin-left: 0.6rem;
+}
+header h5{
+
+    display: inline-block;
+    font-size: 0.775rem;
+    color:#fff;
+}
+header span {
+    position: relative;
+    width: 1.525rem;
+    height: 0.975rem;
+   
+    
+}
+header a i{
+    width: 0.75rem;
+    height: 0.75rem;
+    background: #FADB9B;
+    border-radius: 2px;
+    line-height: 0.75rem;
+    text-align: center;
+    position: absolute; 
+    left:50%;top:-50%;
+   font-size: 0.4rem
+   
+}
+.main {
+
+  
+    padding-left: 0.2rem;
+    width: 100%;
+    height: 22.55rem;
+    
+}
+
+.main .p1 {
+       width: 15.6rem;
+    height: 4.075rem;
+    margin-bottom: 0.5rem;
+    
+}
+.main .p1 img{
+
+    width: 15.6rem;
+    height: 4.075rem;
+}
+.main .p2{
+    width: 15.6rem;
+    height: 10.5rem;
+    margin-bottom: 0.5rem;
+}
+.main .p2 img{
+    width: 13.35rem;
+    height: 10.5rem;
+ 
+}
+.main .p2 .pimg{
+    float: left;
+}
+.main .p2 ul {
+    float: left;
+     height: 10.5rem;
+     width: 2.175rem;
+     background: #fff;
+     text-align: center;
+}
+.main .p2 ul li{
+
+   height: 25%;
+    margin-right: 0.575rem;
+    line-height: 2.3rem;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+    color:red;
+}
+.main .p3 img{
+
+    width: 15.6rem;
+    height: 6.975rem;
+}
+.footer{
+
+    width: 100%;
+    height: 2.55rem;
+    background-color: #695F56;
+    position: fixed;
+    left:0;bottom: 0;
+    text-align: center;
+    line-height: 2.25rem;
+    font-size: 1.5rem;
+
+
+
+}
+.foote a{
+        color:#776E66;
+}
+body:hover {
+
+    position: absolute;
+    left: 12.375rem; top:0;
+}
+body:hover header{
+
+    transform:translateX(12.375rem);
+}
+body:hover .footer{
+
+    transform:translateX(12.375rem);
+}
+body :hover .td{
+
+    position: absolute;
+   left: 0rem;top:0
+}
+.tb img{
+        width: 12.15rem;
+        height: 100%;
+}
+.tb {
+   position: absolute;
+   left: -12.15rem;top:0;
+   height: 100%;
+   width:12.15;
+   background-color: #696056;
+
+}
